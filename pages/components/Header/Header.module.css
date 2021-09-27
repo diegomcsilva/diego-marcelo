@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.images {
+  width: 25%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.images__container {
+  position: relative;
+  z-index: 1;
+}
+
+.images__before {
+  content: '';
+  width: 100%;
+  height: 80%;
+  background-color: var(--color-dark);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.resume {
+  width: 70%;
+}
+
+.title {
+  font-size: var(--font-size-3);
+  line-height: 1.875rem;
+}
+
+.description {
+  font-size: var(--font-size-1);
+  line-height: 1.125rem;
+}
