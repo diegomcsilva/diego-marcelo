@@ -1,10 +1,79 @@
 :root {
-  --color-light: #FEFFEF; 
-  --color-dark: #323232;
+  --white: #FEFFEF; 
+  --black: #323232;
+  --blue-light: #0FC5ED;
+  --blue-dark: #0CA4E9;
+  --salmon: #FB7680;
+  --green-dark: #079968;
+  --green-light: #16DB93;
+  --orange: #FBDFC0;
+  --pink: #FADCEB;
   
   --font: 'Lato';
 
   --font-size-1: 1rem;
   --font-size-2: 1.125rem;
   --font-size-3: 1.5rem;
+
+  --line-height-1: 1.125rem;
+  --line-height-2: 1.375rem;
+  --line-height-3: 1.75rem;
+}
+
+/* colorsClass */
+.white {
+  color: var(--white); 
+}
+.black {
+  color: var(--black);
+}
+.blue-light {
+  color: var(--blue-light);
+}
+.blue-dark {
+  color: var(--blue-dark);
+}
+.salmon {
+  color: var(--salmon);
+}
+.green-dark {
+  color: var(--green-dark);
+}
+.green-light {
+  color: var(--green-light);
+}
+.orange {
+  color: var(--orange);
+}
+.pink {
+  color: var(--pink);
+}
+
+/* bgColorClass */
+.bg-white {
+  background-color: var(--white); 
+}
+.bg-black {
+  background-color: var(--black);
+}
+.bg-blue-light {
+  background-color: var(--blue-light);
+}
+.bg-blue-dark {
+  background-color: var(--blue-dark);
+}
+.bg-salmon {
+  background-color: var(--salmon);
+}
+.bg-green-dark {
+  background-color: var(--green-dark);
+}
+.bg-green-light {
+  background-color: var(--green-light);
+}
+.bg-orange {
+  background-color: var(--orange);
+}
+.bg-pink {
+  background-color: var(--pink);
 }

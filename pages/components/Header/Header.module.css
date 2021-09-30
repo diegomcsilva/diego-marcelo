@@ -21,7 +21,7 @@
   content: '';
   width: 100%;
   height: 80%;
-  background-color: var(--color-dark);
+  background-color: var(--black);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -34,10 +34,10 @@
 
 .title {
   font-size: var(--font-size-3);
-  line-height: 1.875rem;
+  line-height: var(--line-height-3);
 }
 
 .description {
   font-size: var(--font-size-1);
-  line-height: 1.125rem;
+  line-height: var(--line-height-1);
 }

@@ -1,0 +1,49 @@
+.projects {
+  height: 100%;
+  width: 100%;
+}
+
+.projectsItem {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 10px 0px 0px;
+  text-align: right;
+  margin-bottom: 20px;
+  position: relative;
+  height: 50px;
+}
+
+.projectsItem:nth-child(odd) {
+  border-radius: 10px 0px 0px 0;
+  text-align: left;
+}
+
+.projectsItem::after {
+  content: '';
+  height: 100%;
+  transform: translateX(-100%);
+  top: -5px;
+  left: 3px;
+  width: 100%;
+  background: inherit;
+  position: absolute;
+  height: 50px;
+  z-index: 0;
+  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.projectsItem:nth-child(odd)::after {
+  transform: translateX(100%);
+  left: -3px;
+  box-shadow: -3px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.projectWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.projectsItem:nth-child(odd) .projectWrapper {
+  flex-direction: row-reverse;
+}
