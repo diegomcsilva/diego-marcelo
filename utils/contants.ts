@@ -17,3 +17,10 @@ export const COLORS = [
   '#FBDFC0',
   '#FADCEB'
 ]
+
+const CONSTANTS = {
+  LANGUAGES,
+  COLORS
+}
+
+export default CONSTANTS

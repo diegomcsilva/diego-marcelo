@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Image from 'next/image'
 
-import { LANGUAGES } from './../../utils/contants'
+import { LANGUAGES } from '../../../utils/contants'
 import styles from './Footer.module.css'
 
 const Footer: NextPage = () => {

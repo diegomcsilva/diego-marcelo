@@ -5,7 +5,7 @@ import ProjectsItem from './Projects_Item';
 
 import styles from './Projects.module.css'
 
-type Data = {
+type Props = {
   name: string,
   date: string,
   color: string
@@ -28,7 +28,7 @@ const Projects: NextPage = () => {
     <div className={styles.projects}>
       <div className="wrapper">
         <div className={styles.projectsContainer}>
-          {projects.map((item:Data, index:number) => ProjectsItem(item, index))}
+          {projects.map((item:Props, index:number) => ProjectsItem(item, index))}
         </div>
       </div>
     </div>

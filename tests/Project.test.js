@@ -1,5 +1,5 @@
-import { between, selectColorRanging } from './../../utils/metodes';
-import { COLORS } from './../../utils/contants';
+import { between, selectColorRanging } from '../utils/methods';
+import { COLORS } from '../utils/contants';
 
 describe('Check return value between two values', () => {
   
