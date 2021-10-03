@@ -7,7 +7,8 @@ import styles from './Projects.module.css'
 
 type Data = {
   name: string,
-  date: string
+  date: string,
+  color: string
 }
 
 const Projects: NextPage = () => {

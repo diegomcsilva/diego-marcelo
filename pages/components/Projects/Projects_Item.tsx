@@ -9,7 +9,7 @@ type Props = {
 }
 
 const ProjectsItem: FunctionComponent<Props> = ({ name, date, color }, index: number) => {
-  
+
   return (
     <div key={index} className={styles.projectsItem} style={{ backgroundColor: `${color}` }}>
       <div className={`${styles.projectWrapper} wrapper`}>
