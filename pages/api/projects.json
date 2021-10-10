@@ -1,12 +1,215 @@
 [
   {
     "name": "Kenner",
-    "date": "01/01/2019",
-    "color": "#FB7680"
+    "link": "https://www.kenner.com.br/",
+    "date": 2019,
+    "color": "#fc5621",
+    "tec": [
+      "javascript",
+      "css",
+      "html",
+      "vtex",
+      "sass",
+      "jquery",
+      "gulp",
+      "grunt",
+      "canvas"
+    ],
+    "empresa": "kenner"
   },
   {
-    "name": "GE - Simone Billes",
-    "date": "01/01/2020",
-    "color": "#079968"
+    "name": "Raceworks",
+    "link": "https://raceworks.com.br/",
+    "date": 2021,
+    "color": "#be1e2d",
+    "tec": [
+      "javascript",
+      "css",
+      "html",
+      "wordpress",
+      "jquery",
+      "php"
+    ],
+    "empresa": "freelancer"
+  },
+  {
+    "name": "pixelm2",
+    "link": "http://www.pixelm2.com.br/",
+    "date": 2019,
+    "color": "#3e3e3e",
+    "tec": [
+      "javascript",
+      "css",
+      "html",
+      "sass",
+      "wordpress",
+      "webpack",
+      "starter theme sage",
+      "php",
+      "blade"
+    ],
+    "empresa": "tuut"
+  },
+  {
+    "name": "Prateando Jóias",
+    "link": "http://www.prateandojoias.com.br/",
+    "date": 2020,
+    "color": "#22909a",
+    "tec": [
+      "javascript",
+      "css",
+      "html",
+      "wordpress",
+      "php"
+    ],
+    "empresa": "freelancer"
+  },
+  {
+    "name": "Eleva - Novo Ensino Medio",
+    "link": "https://novoemedio.com.br/",
+    "date": 2020,
+    "color": "#91278F",
+    "tec": [
+      "javascript",
+      "css",
+      "html",
+      "sass",
+      "wordpress",
+      "webpack",
+      "starter theme sage",
+      "php",
+      "blade"
+    ],
+    "empresa": "tuut"
+  },
+  {
+    "name": "Ibere Camargo",
+    "link": "http://iberecamargo.org.br/colabore/",
+    "date": 2019,
+    "color": "#3e3e3e",
+    "tec": [
+      "javascript",
+      "css",
+      "html",
+      "sass",
+      "wordpress",
+      "webpack",
+      "starter theme sage",
+      "php",
+      "blade"
+    ],
+    "empresa": "tuut"
+  },
+  {
+    "name": "Escola Eleva",
+    "link": "https://escolaeleva.com.br/",
+    "date": 2019,
+    "color": "#91278F",
+    "tec": [
+      "javascript",
+      "css",
+      "html",
+      "sass",
+      "wordpress",
+      "webpack",
+      "starter theme sage",
+      "php",
+      "blade"
+    ],
+    "empresa": "tuut"
+  },
+  {
+    "name": "Mulher Elastica",
+    "link": "https://www.mulherelastica.com.br/",
+    "date": 2021,
+    "color": "#3e3e3e",
+    "tec": [
+      "javascript",
+      "css",
+      "html",
+      "sass",
+      "jquery",
+      "vtex",
+      "gulp"
+    ],
+    "empresa": "freelancer"
+  },
+  {
+    "name": "Hector Albertazzi",
+    "link": "https://www.hectoralbertazzi.com.br/",
+    "date": 2021,
+    "color": "#333333",
+    "tec": [
+      "javascript",
+      "css",
+      "html",
+      "sass",
+      "jquery",
+      "vtex",
+      "gulp"
+    ],
+    "empresa": "freelancer"
+  },
+  {
+    "name": "Shop do Jeans",
+    "link": "https://www.shopdojeans.com.br/",
+    "date": 2021,
+    "color": "#1b678e",
+    "tec": [
+      "javascript",
+      "css",
+      "html",
+      "sass",
+      "jquery",
+      "vtex",
+      "gulp"
+    ],
+    "empresa": "freelancer"
+  },
+  {
+    "name": "Hit Oficial",
+    "link": "https://www.hitoficial.com.br/",
+    "date": 2021,
+    "color": "#3e3e3e",
+    "tec": [
+      "javascript",
+      "css",
+      "html",
+      "sass",
+      "jquery",
+      "vtex",
+      "gulp"
+    ],
+    "empresa": "freelancer"
+  },
+  {
+    "name": "Motobikers",
+    "link": "https://www.motobikers.com.br/",
+    "date": 2021,
+    "color": "#3e3e3e",
+    "tec": [
+      "javascript",
+      "css",
+      "html",
+      "sass",
+      "jquery",
+      "shopify",
+      "gulp"
+    ],
+    "empresa": "freelancer"
+  },
+  {
+    "name": "Alcance Construtora",
+    "link": "http://www.alcanceconstrutora.com.br/",
+    "date": 2021,
+    "color": "#414e43",
+    "tec": [
+      "javascript",
+      "css",
+      "html",
+      "wordpress",
+      "php"
+    ],
+    "empresa": "freelancer"
   }
 ]

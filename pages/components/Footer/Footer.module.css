@@ -1,11 +1,5 @@
 .footer {
   border-top: 0.313rem solid var(--black);
   background: var(--blue-light);
-  padding: 1.125rem 0;
-  display: flex;
-  justify-content: space-between;
-}
-
-.footerItem {
-  margin-right: 2rem;
+  padding: 1.125rem 3rem;
 }
