@@ -2,14 +2,10 @@ import type { NextPage } from 'next'
 import { useEffect, useState } from 'react';
 
 import ProjectsItem from './Projects_Item';
+import { Project } from './../../../utils/types';
 
 import styles from './Projects.module.css'
 
-type Props = {
-  name: string,
-  date: string,
-  color: string
-}
 
 const Projects: NextPage = () => {
   const [projects, setProjects] = useState([])
@@ -28,7 +24,8 @@ const Projects: NextPage = () => {
     <div className={styles.projects}>
       <div className="wrapper">
         <div className={styles.projectsContainer}>
-          {projects.map((item:Props, index:number) => ProjectsItem(item, index))}
+          { console.log(projects)}
+          {projects.sort((a:Project, b:Project) => b.date - a.date).map((item:Project, index:number) => ProjectsItem(item, index))}
         </div>
       </div>
     </div>
