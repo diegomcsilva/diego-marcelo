@@ -1,5 +1,4 @@
 import React, { FunctionComponent } from 'react'
-import Link from 'next/link'
 import Image from 'next/image'
 
 import styles from './Projects.module.css'
@@ -14,16 +13,14 @@ const ProjectsItem: FunctionComponent<Project> = ({ name, date, color, link, tec
         <div className={styles.projectsDate}>
           {date}
         </div>
-        <Link href={link} passHref>
-          <a className={styles.projectsName} target="_blank" >
-            {name}
-          </a>
-        </Link>
+        <a href={link} rel="noreferrer" className={styles.projectsName} target="_blank" >
+          {name}
+        </a>
         <div className={styles.markSpace}></div>
         <div className={styles.projectsTec}>
           <ul className={styles.projectsList}>
             {
-              tec.map((language, key) =>
+              tec && tec.map((language, key) =>
                 <li key={key} title={language}>
                   <Image key={language} src={`/icons-languages/${language}.png`} alt={language} width={40} height={40} objectFit='contain'/>
                 </li>

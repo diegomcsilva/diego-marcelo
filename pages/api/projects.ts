@@ -4,7 +4,7 @@ import data from './projects.json'
 
 type Data = {
   name: string,
-  date: string
+  date: number
 }
 
 type listData = Array<Data>

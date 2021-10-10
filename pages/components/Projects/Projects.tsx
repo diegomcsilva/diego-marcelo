@@ -24,7 +24,6 @@ const Projects: NextPage = () => {
     <div className={styles.projects}>
       <div className="wrapper">
         <div className={styles.projectsContainer}>
-          { console.log(projects)}
           {projects.sort((a:Project, b:Project) => b.date - a.date).map((item:Project, index:number) => ProjectsItem(item, index))}
         </div>
       </div>
