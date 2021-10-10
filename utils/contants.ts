@@ -1,14 +1,26 @@
 export const LANGUAGES = [
-  'js',
+  'javascript',
   'react',
+  'jest',
   'node',
-  'html',
-  'linux'
+  'webpack',
+  "gulp",
+  "sass",
+  "css",
+  "html",
+  "jquery",
+  "vtex",
+  "grunt",
+  "canvas",
+  'linux',
+  'shopify',
+  'wordpress',
+  'php',
+  'canvas',
+  'blade'
 ]
 
 export const COLORS = [
-  '#FEFFEF',
-  '#323232',
   '#0FC5ED',
   '#0CA4E9',
   '#FB7680',
@@ -18,9 +30,16 @@ export const COLORS = [
   '#FADCEB'
 ]
 
+export const HEADER_CONFIG = {
+  interval: 3000,
+  limitPhotos: 4
+}
+
 const CONSTANTS = {
   LANGUAGES,
-  COLORS
+  COLORS,
+  HEADER_CONFIG
 }
+
 
 export default CONSTANTS
