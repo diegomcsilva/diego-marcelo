@@ -1,0 +1,17 @@
+.slick-prev:before, 
+.slick-next:before {
+  color: var(--white)
+}
+
+.slick-slide span {
+  display: flex !important;
+  justify-content: center;
+}
+
+.images__item__hide {
+  display: none;
+}
+
+.images__item__show {
+  display: block;
+}
