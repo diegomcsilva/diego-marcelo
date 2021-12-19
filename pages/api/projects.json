@@ -211,5 +211,39 @@
       "php"
     ],
     "empresa": "freelancer"
+  },
+  {
+    "name": "Batalha pela hegemonia",
+    "link": "https://interativos.globoesporte.globo.com/futebol/materia/batalha-pela-hegemonia-palmeiras-flamengo-final-libertadores",
+    "date": 2021,
+    "color": "#05A948",
+    "tec": [
+      "javascript",
+      "rxjs",
+      "css",
+      "sass",
+      "html",
+      "pug",
+      "webpack",
+      "gestão"
+    ],
+    "empresa": "Globo GE"
+  },
+  {
+    "name": "Calculadora de carbono",
+    "link": "https://especiais.g1.globo.com/meio-ambiente/calculadora-emissoes-carbono/",
+    "date": 2021,
+    "color": "#C4170D",
+    "tec": [
+      "javascript",
+      "rxjs",
+      "css",
+      "sass",
+      "html",
+      "pug",
+      "webpack",
+      "gestão"
+    ],
+    "empresa": "Globo G1"
   }
 ]

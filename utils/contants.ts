@@ -11,7 +11,6 @@ export const LANGUAGES = [
   "jquery",
   "vtex",
   "grunt",
-  "canvas",
   'linux',
   'shopify',
   'wordpress',

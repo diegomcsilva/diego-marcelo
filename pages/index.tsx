@@ -3,7 +3,8 @@ import type { NextPage } from 'next'
 import Header from './components/Header/Header'
 import Filter from './components/Filter/Filter'
 import Projects from './components/Projects/Projects'
-import Footer from './components/Footer/Footer'
+
+import { FilterProvider } from './common/context/filterContext'
 
 import styles from '../styles/Home.module.css'
 
@@ -14,12 +15,14 @@ const Home: NextPage = () => {
       <Header />
 
       <main className={styles.main}>
-        <Filter />
 
-        <Projects />
+        <FilterProvider>
+          <Filter />
+
+          <Projects />
+        </FilterProvider>
       </main>
 
-      <Footer />
     </div>
   )
 }

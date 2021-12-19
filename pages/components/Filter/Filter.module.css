@@ -1,11 +1,11 @@
 .filter {
   height: 3.375rem;
-  background: var(--white);
   border: 0.125rem solid var(--black);
   box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 
 .input {
@@ -23,8 +23,50 @@
 }
 
 .icon {
-  width: 15%;
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
+  background: var(--white);
+}
+
+.options {
+  position: absolute;
+  top: 54px;
+  left: 0;
+  background: #fdffee;
+  color: var(--black);
+  width: 100%;
+  z-index: 1;
+  text-align: center;
+  max-height: 0;
+  overflow: auto;
+  transition: ease max-height 0.5s;
+}
+
+.options[data-open="true"] {
+  max-height: calc(100vh - 280px);
+}
+
+.options [data-value] {
+  padding: 10px;
+  margin: 0 20px;
+  border-bottom: 1px solid var(--black);
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.options [data-value]:hover {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.currentFilter {
+  border: 1px solid;
+  padding: 5px;
+}
+
+.currentFilter:empty {
+  display: none;
 }

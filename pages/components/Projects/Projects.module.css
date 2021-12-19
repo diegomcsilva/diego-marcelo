@@ -1,6 +1,6 @@
 .projects {
   height: 100%;
-  max-height: calc(100vh - 20.625rem);
+  max-height: calc(100vh - 15rem);
   width: 100%;
   max-width: 100vw;
   overflow: auto;

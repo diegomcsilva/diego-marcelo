@@ -14,7 +14,5 @@ describe('Check return value between two values', () => {
 });
 
 test('Check return string color that array of the COLORS', () => {
-  expect(COLORS).toEqual( 
-    expect.arrayContaining([selectColorRanging()])
-  )
+  expect(COLORS).toEqual(expect.arrayContaining([selectColorRanging()]))
 });
